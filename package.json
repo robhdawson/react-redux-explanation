@@ -14,6 +14,6 @@
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
-        "gh-pages": "npm run build && git commit -am --allow-empty 'build for gh-pages' && git subtree push --prefix build origin gh-pages"
+        "gh-pages": "npm run build && git add . && git commit --allow-empty -m 'build for gh-pages' && git subtree push --prefix build origin gh-pages"
     }
 }
