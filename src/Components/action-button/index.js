@@ -3,6 +3,9 @@ import { connect } from 'react-redux'
 
 class ActionButton extends Component {
     handleClick() {
+        console.log('FIRING ACTION');
+        console.log(JSON.stringify(this.props.action));
+        console.log('');
         this.props.dispatch(this.props.action);
     }
 
