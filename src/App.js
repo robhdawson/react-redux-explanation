@@ -23,6 +23,7 @@ class App extends Component {
                 <ActionButton action={angela('chill')} />
 
                 <p className="hint">open the console to see some stuff</p>
+                <p className="hint">the github repo lives <a href="https://github.com/robhdawson/react-redux-explanation">here</a></p>
             </div>
         );
     }
