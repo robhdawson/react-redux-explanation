@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
 function log(name, state, action) {
-    console.log(`reducer '${name}' processing action '${JSON.stringify(action)}'`);
+    console.log(`reducer '${name}' processing action ${JSON.stringify(action)}`);
     console.log(`current state: ${state}`);
 }
 
